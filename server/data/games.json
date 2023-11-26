@@ -1,0 +1,42 @@
+{
+    "f50b0a94-ed76-4d41-a5c8-3228514929fc": {
+        "title": "Test game",
+        "category": "Phunk",
+        "maxLevel": "1",
+        "imageUrl": "https://media.pitchfork.com/photos/6515966bd9aee8195f345536/master/w_1280%2Cc_limit/Daft-Punk.jpg",
+        "summary": "Greatest drumless game",
+        "_id": "f50b0a94-ed76-4d41-a5c8-3228514929fc"
+    },
+    "187697f2-10f8-463f-b685-e9562f572a44": {
+        "title": "few",
+        "category": "fvwe",
+        "maxLevel": "3",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Just_Dance_2024_Edition.jpeg",
+        "summary": "cvdscs",
+        "_id": "187697f2-10f8-463f-b685-e9562f572a44"
+    },
+    "ac39677f-d8b2-4810-937a-914cac63833b": {
+        "title": "gasgas",
+        "category": "frfa",
+        "maxLevel": "3",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Just_Dance_2024_Edition.jpeg",
+        "summary": "ergergw",
+        "_id": "ac39677f-d8b2-4810-937a-914cac63833b"
+    },
+    "6c1d7b69-0aaa-4a96-9214-0b25216fe7e0": {
+        "title": "fervr",
+        "category": "erg",
+        "maxLevel": "4",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Just_Dance_2024_Edition.jpeg",
+        "summary": "vefdver",
+        "_id": "6c1d7b69-0aaa-4a96-9214-0b25216fe7e0"
+    },
+    "4e246710-3d8e-4985-ae82-23f22b009148": {
+        "title": "test ",
+        "category": "gefsg",
+        "maxLevel": "3",
+        "imageUrl": "https://images.openai.com/blob/d8d965fd-e54c-4c9b-9d7d-b5d9910d38b2/gpt-3-5-turbo-fine-tuning-and-api-updates.png?trim=0,0,0,0&width=2000",
+        "summary": "sfwr",
+        "_id": "4e246710-3d8e-4985-ae82-23f22b009148"
+    }
+}
