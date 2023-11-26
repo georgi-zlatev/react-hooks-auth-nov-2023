@@ -7,6 +7,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import GameDetails from "./components/GameDetails/GameDetails";
 import { useState } from "react";
+import AuthContext from "./contexts/authContexts";
 
 function App() {
   const [auth, setAuth] = useState({})
@@ -15,7 +16,7 @@ function App() {
     console.log(values);
   }
   return (
-    <AuthContext.provider value={{loginSubmitHadnler}}>
+    <AuthContext.Provider value={{loginSubmitHadnler}}>
     <div id="box">
       <Header />
 
@@ -28,7 +29,7 @@ function App() {
         <Route path="/games/:gameId" element={<GameDetails />} />
       </Routes>
     </div>
-    </AuthContext.provider>
+    </AuthContext.Provider>
 
   );
 }

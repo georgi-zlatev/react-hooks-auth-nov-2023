@@ -16,7 +16,7 @@ export default function Login() {
   })
 
   return (
-    <section id="login-page" classNameName="auth">
+    <section id="login-page" className="auth">
       <form id="login" onSubmit={onSubmit}> 
         <div className="container">
           <div className="brand-logo"></div>
@@ -25,14 +25,14 @@ export default function Login() {
           <input
             type="email"
             id="email"
-            name="email"
+            name={loginFormKeys.Email}
             placeholder="Sokka@gmail.com"
             onChange={onChange}
-            value={values.email}
+            value={values[loginFormKeys.Email]}
           />
 
           <label htmlFor="login-pass">Password:</label>
-          <input type="password" id="login-password" name="password" onChange={onChange}/>
+          <input type="password" id="login-password" name={loginFormKeys.Password} onChange={onChange} value={values[loginFormKeys.Password]}/>
           <input type="submit" className="btn submit" value="Login" />
           <p className="field">
             <span>
