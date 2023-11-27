@@ -41,9 +41,9 @@ function App() {
 const values = { 
     loginSubmitHandler, 
     registerSubmitHandler,
-    username: auth.username, 
+    username: auth.username || auth.email, 
     email: auth.email, 
-    isAuthenticated: !!auth.username
+    isAuthenticated: !!auth.email
   }
   return (
     <AuthContext.Provider value={values}>
